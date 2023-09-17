@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>СЛАВЛЭНД - Мультфильмы</title>
+    <meta name='viewport' content='width=device-width, initial-scale=0.5'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='../style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../progress.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='particles/particles.css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="YouTubeToHtml5.js"></script>
+
+</head>
+
+
+<body>
+
+    <div class = "about"></div>
+        <div class="title main_title">
+            <p>Тест</p>
+        </div>
+        <div class="description">
+            <p>Смотреть серию:</p>
+        </div>  
+    </div>
+    <div class="wrapper">
+        <div class="player">
+            <video class="video" src="https://onedrive.live.com/download?resid=55E0D0CC4ED36071%21283&authkey=!ADgqFgyznqoTvGE"></video>
+            </video>
+            <div class="action_centreplay"><img width="104" class="  centre_play" src="./images/play_button.png" alt="play"></div>              
+            <div class="controls">
+                <div class="action_play"><img width="44" class="play_btn" src="./images/play_button.png" alt="play"></div>
+                <div class="action_progress">
+                    <input type="range" size="200" class="progress">
+                </div>
+                <div class="action_time">00:00</div>
+                <div class="action_soundstoggle"><img width="44" class="sounds_btn" src="./images/music_button.png" alt="play"></div>    
+                <div class="action_volume">
+                    <input type="range" size="200" class="volumeprogress">
+                </div>   
+                <div class="action_fullscreen"><img width="44" class="sounds_btn" src="./images/fullscreen_button.png" alt="play"></div>                 
+            </div>
+            <div class="action_undoFullscreen"><img width="44" class="sounds_btn" src="./images/fullscreen_button.png" alt="play"></div>            
+        </div>
+    </div>
+    <div class="title-padding"></div>
+    <div class="descriptionc">
+        <p>Описание:</p>
+    </div>     
+    <div class="underdescription">
+        <p>Это тестовое описание, предположем здесь будет песня</p>
+        <p>Жил было кот, танцевал до упада</p>
+        <p>Засаливал кот банки лопатой</p>
+        <p>А вдруг засолил он так эти банки</p>
+        <p>Что в танец пустились они танцевальный</p>
+    </div>
+    <div class="descriptionc">
+        <p>Оцените серию:</p>
+    </div>       
+    <div class="rating">
+        <div class="btn-contain">
+            <img width="88.3" class="dislike_btn btn" src="./images/notdisliked.png" alt="play">          
+            <img width="86.3" class="like_btn btn2" src="./images/notliked.png" alt="play">  
+            <div class="btn-particles">
+            </div>
+        </div>            
+    </div>
+    <div class="descriptionc">
+        <p>На главную:</p>
+    </div>  
+    <div class="underdescription">
+        <a href="../index.html" class="non-decorations">Нажмите</a>
+    </div>      
+    <script src="videoplayer.js"></script>
+    <script src="particles/particles.js"></script>
+    <script src="rating.js"></script>
+</body>
+</html>
